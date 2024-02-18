@@ -1,0 +1,14 @@
+{
+  "name": "example-tailwindcss-project",
+  "version": "1.0.0",
+  "description": "An example of a basic website that uses TailwindCSS",
+  "scripts": {
+    "build-css": "tailwindcss -i ./styles.css -o ./src/styles.css",
+    "watch-css": "tailwindcss -i ./styles.css -o ./src/styles.css --watch"
+  },
+  "author": "Doc0x1",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
