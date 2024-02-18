@@ -2,6 +2,13 @@
 
 If you are one of the developers I'm mentoring, you should be reading all of this. If I've included it in here, there's a reason for it.
 
+**Before opening the `src/index.html` file in your browser, you need to enter the following commands in your terminal to set everything up:**
+
+```bash
+npm install
+npm run build-css
+```
+
 ## What is TailwindCSS?
 
 TailwindCSS is a utility-first CSS framework designed for rapid web development. Unlike traditional frameworks (such as Bootstrap) which provide ready-made components, Tailwind offers utility classes that you apply directly in your HTML, allowing for custom designs without writing extensive CSS.
